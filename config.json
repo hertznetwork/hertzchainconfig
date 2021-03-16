@@ -5,8 +5,8 @@
       "symbol": "HTZ",
       "icon": "oho.png",
       "precision": 4,
-      "name": "HTZ TESTNET",
-      "network": "TESTNET",
+      "name": "HTZ MAINNET",
+      "network": "MAINNET",
       "firstApi": "http://161.97.169.211:4551",
       "historyApi": "",
       "hyperionApis": [
@@ -38,6 +38,11 @@
       "endpoints": [
         {
           "url": "http://161.97.169.211:4551",
+          "owner": "HTZ network",
+          "latency": 492
+        },
+        {
+          "url": "http://161.97.169.193:4551",
           "owner": "HTZ network",
           "latency": 492
         }
